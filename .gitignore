@@ -1,0 +1,79 @@
+config/config.example.yaml
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Python
+*.py[cod]
+*$py.class
+.Python
+env/
+build/
+dist/
+develop-eggs/
+pip-wheel-metadata/
+htmlcov/
+.tox/
+.cache
+.pytest_cache/
+.coverage
+.coverage.*
+
+# Virtualenvs
+.env
+venv/
+.venv/
+.hw2
+ENV/
+env.bak/
+ASSIGNMENT.md
+Assignment2.pdf
+commands.md
+i220779_MuhammadHamzaNadeem_C.zip
+report.md
+i220779_MuhammadHamzaNadeem_C
+dataset
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Node
+node_modules/
+pnpm-lock.yaml
+.vite/
+.parcel-cache/
+dist/
+build/
+
+# Project outputs and results
+results/
+**/results/
+evaluation_results.json
+
+# Models / artifacts
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+*.h5
+*.model
+*.pkl
+*.joblib
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints
+
+# Logs
+logs/
+*.log

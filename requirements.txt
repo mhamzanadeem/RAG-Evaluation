@@ -1,0 +1,21 @@
+# Core
+sentence-transformers
+numpy
+requests
+
+# LLM runtime
+# Ollama is accessed via local HTTP API (http://localhost:11434)
+
+# Backend / API
+flask
+flask-cors
+# Alternative: fastapi uvicorn
+
+# Optional: faster vector search (recommended for large corpora)
+# faiss-cpu
+
+# Config
+pyyaml
+
+# Utilities
+tqdm
